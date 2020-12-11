@@ -4,6 +4,10 @@
 // @version      1.0
 // @description  Изменяет страну и валюту
 // @author       Andronio
+// @homepage     https://github.com/Andronio2/Aliexpress-Country-Changer
+// @supportURL   https://github.com/Andronio2/Aliexpress-Country-Changer/issues
+// @updateURL    https://github.com/Andronio2/Aliexpress-Country-Changer/raw/main/Aliexpress%20Country%20Changer.user.js
+// @downloadURL  https://github.com/Andronio2/Aliexpress-Country-Changer/raw/main/Aliexpress%20Country%20Changer.user.js
 // @match        https://*.aliexpress.ru/*
 // @match        https://*.aliexpress.com/*
 // @grant        none

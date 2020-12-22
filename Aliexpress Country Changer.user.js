@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Aliexpress Country Changer
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Изменяет страну и валюту
 // @author       Andronio
 // @homepage     https://github.com/Andronio2/Aliexpress-Country-Changer

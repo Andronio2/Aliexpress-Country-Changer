@@ -36,7 +36,7 @@ let myLocale    = "ru_RU";
 		'aep_usuc_f': {
 			'region':   myCountry,
 			'c_tp':     myCurrency,
-			'alimid':	'2'
+			'x_alimid':	'2'
 		}
 	}
 */
@@ -54,7 +54,7 @@ let myLocale    = "ru_RU";
 
 		const findNReplace = (str, key, value) => {
 			if (str.includes(key)) {
-				let re = new RegExp(key + '=\\w{' + value.length + '}');
+				let re = new RegExp(key + '=[^&$]+');
                 if (str.match(re)[0] !== (key + '=' + value)) {
                     str = str.replace(re, key + '=' + value);
                     isNeedModif = true;
